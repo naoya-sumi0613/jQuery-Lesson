@@ -11,7 +11,9 @@
 // イベント検出後のCSSをあらかじめ定義し、addClassするようにする
 
 $(function(){
-  $('.box1').mouseover(function(){
+//$('.box1').mouseover(function(){
+//クリックイベントに変更
+  $('.box1').on('click', function(){
     $('.box1').addClass('box1-ext');
   });
   $('.box1').mouseout(function(){
