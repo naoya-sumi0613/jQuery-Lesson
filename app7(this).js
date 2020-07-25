@@ -18,6 +18,7 @@
 
 // ↑一つずつ記述するやり方。面倒
 // thisを使って書き換える
+// this=クリックされた要素
 
 $(function(){
   $('.box1').on('click', function(){
